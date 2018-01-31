@@ -1,0 +1,72 @@
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set dimensions for the div containing the page's content */
+#container {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+    height: 100%;
+    width: 80%;
+    display: inline-block;
+}
+
+#sidebar {
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+    overflow-y: auto;
+    background: #888888;
+}
+
+#sidebar img {
+    width: 100%;
+}
+
+#sidebar div {
+    /* box-shadow: 0 10px 5px #888888; */
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: white;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+.modal {display: none;}
+.modal-body {padding: 2px 16px;}
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    border: 1px solid #888;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}

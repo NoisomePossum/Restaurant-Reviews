@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restaurant Review App</title>
+        <meta name="viewport" content="initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="map"></div>
+            <div id="sidebar"></div>
+
+            <!-- The Modal -->
+            <div id="enterReview" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <form id="ratingForm">
+                            <h2>Add restaurant</h2>
+                            <p>Fill in the information below to add a new restaurant to the map.</p>
+                            Restaurant name:<br />
+                            <input type="text" name="restaurantName" id="restaurantName">
+                            <br />
+                            Rating:<br />
+                            <input type="radio" name="stars" value="1">1
+                            <input type="radio" name="stars" value="2">2
+                            <input type="radio" name="stars" value="3">3
+                            <input type="radio" name="stars" value="4">4
+                            <input type="radio" name="stars" value="5">5
+                            <br />
+                            Comments:<br />
+                            <textarea name="comment" id="commentBox" rows="10" cols="30">Review here</textarea>
+                            <br />
+                            <input type="button" value="Submit" onclick="getContent()">
+                        </form>
+                    </div>
+                </div>
+                <!-- end Modal -->
+            </div>
+
+
+            <!-- The Modal -->
+            <div id="reviewOnly" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <form id="ratingForm2">
+                            <p>Add review for</p>
+                            <h2 id="reviewWhat"></h2>
+                            Rating:<br />
+                            <input type="radio" name="stars" value="1">1
+                            <input type="radio" name="stars" value="2">2
+                            <input type="radio" name="stars" value="3">3
+                            <input type="radio" name="stars" value="4">4
+                            <input type="radio" name="stars" value="5">5
+                            <br />
+                            Comments:<br />
+                            <textarea name="comment" id="commentBox2" rows="10" cols="30">Review here</textarea>
+                            <br />
+                            <div id="insertReview"><input type="button" value="Submit" id="insertReviewButton"></div>
+                        </form>
+                    </div>
+                </div>
+                <!-- end Modal -->
+            </div>
+        </div>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC109Sva_YNnSYkw8bVrzL2uWSefwptmi8&libraries=places,drawing&callback=initMap" async defer></script>
+        <script src="./js/map.js"></script>
+    </body>
+</html>

@@ -1,0 +1,223 @@
+eqfeed_callback({
+"restaurants":[
+   {
+      "restaurantName":"Casa Whatsit",
+      "address":"rue des Petites Écuries, Paris",
+      "lat":48.8737815,
+      "long":2.3501649,
+      "ratings":[
+         {
+            "stars":2,
+            "comment":"What did I just eat?"
+         },
+         {
+            "stars":5,
+            "comment":"Great place for seafood!"
+         }
+      ]
+   },
+
+   {
+      "restaurantName":"Dharamsala Tacos",
+      "address":"Rue Lamarck, Paris",
+      "lat":48.8865035,
+      "long":2.3442197,
+      "ratings":[
+         {
+            "stars":5,
+            "comment":"These tacos were amazing!"
+         },
+         {
+            "stars":3,
+            "comment":"Really weird theme but good tacos I guess."
+         }
+      ]
+   },
+
+   {
+      "restaurantName":"Un vrai restaurant parisien",
+      "address":"Rue Caille, Paris",
+      "lat":48.8855035,
+      "long":2.3642197,
+      "ratings":[
+         {
+            "stars":5,
+            "comment":"Un vrai restaurant parisien au couer de Paris !"
+         },
+         {
+            "stars":1,
+            "comment":"I didn't come to Paris for this. I want French food!"
+         },
+         {
+            "stars":2,
+            "comment":"No french fries!?"
+         }
+      ]
+   },
+
+   {
+      "restaurantName":"Cheval",
+      "address":"Rue des dames, Paris",
+      "lat":48.8845035,
+      "long":2.3242197,
+      "ratings":[
+         {
+            "stars":5,
+            "comment":"Heureusement que ce n'est pas du vrai cheval."
+         },
+         {
+            "stars":3,
+            "comment":"Le chef est mort avant que le repas soit servi mais sinon l'atmosphère était assez agréable."
+         }
+      ]
+   },
+
+   {
+      "restaurantName":"Varmint : la cuisine à l'américaine",
+      "address":"Rue Monjol, Paris",
+      "lat":48.8765035,
+      "long":2.3742197,
+      "ratings":[
+         {
+            "stars":3,
+            "comment":"Comment les américains arrivent-ils à manger comme ça ?"
+         },
+         {
+            "stars":2,
+            "comment":"Beurk !"
+         }
+      ]
+   },
+
+   {
+      "restaurantName":"Ça se mange",
+      "address":"rue Soufflot, Paris",
+      "lat":48.8465035,
+      "long":2.3442197,
+      "ratings":[
+         {
+            "stars":3,
+            "comment":"Ouais."
+         },
+         {
+            "stars":3,
+            "comment":"Ok."
+         }
+      ]
+   },
+
+   {
+      "restaurantName":"Kuso fumu na",
+      "address":"rue Wurtz, Paris",
+      "lat":48.8265035,
+      "long":2.3442197,
+      "ratings":[
+         {
+            "stars":4,
+            "comment":"Y avait une odeur un peu étrange mais la nourriture était très délicieuse."
+         },
+         {
+            "stars":3,
+            "comment":"Il y a vraiment beaucoup de crottes de chiens en dehors du resto. Pourquoi ?"
+         }
+      ]
+   },
+
+   {
+      "restaurantName":"Le restaurant des chats.",
+      "address":"rue Lemaignan, Paris",
+      "lat":48.8245035,
+      "long":2.3414197,
+      "ratings":[
+         {
+            "stars":1,
+            "comment":"Je m'attendais à un restaurant avec des chats mais quand chui entré on m'a fait servir des croquettes à des chats."
+         },
+         {
+            "stars":5,
+            "comment":"Les chats étaient si mignons !"
+         },
+         {
+            "stars":5,
+            "comment":"The cats were so cute!"
+         }
+      ]
+   },
+
+   {
+      "restaurantName":"Eat with your hands",
+      "address":"rue du Dessous des Berges",
+      "lat":48.8265035,
+      "long":2.3742197,
+      "ratings":[
+         {
+            "stars":1,
+            "comment":"I smuggled in some silverware and the staff yelled at me. Never coming back."
+         },
+         {
+            "stars":2,
+            "comment":"Not bad, but my grandmother didn't appreciate the concept."
+         }
+      ]
+   },
+
+   {
+      "restaurantName":"Goldilocks cafe",
+      "address":"Impasse Saint-François, Paris",
+      "lat":48.8965035,
+      "long":2.3442197,
+      "ratings":[
+         {
+            "stars":1,
+            "comment":"My first visit here. The food was too hot and the chairs were too big."
+         },
+         {
+            "stars":3,
+            "comment":"My second time coming here. The portions weren't very large and the air conditioning made it a bit cold."
+         },
+         {
+            "stars":5,
+            "comment":"Third time visiting. Everything was just right!"
+         }
+      ]
+   },
+
+   {
+      "restaurantName":"Sous la tour Eiffel",
+      "address":"Avenue Gustave Eiffel, Paris",
+      "lat":48.858233,
+      "long":2.295789,
+      "ratings":[
+         {
+            "stars":5,
+            "comment":"What a treat to eat beneath the Eiffel tower!"
+         },
+         {
+            "stars":1,
+            "comment":"WTF? The restaurant is under ground!"
+         }
+      ]
+   },
+
+   {
+      "restaurantName":"Que du fromage",
+      "address":"Square Alice, Paris",
+      "lat":48.8265035,
+      "long":2.3142197,
+      "ratings":[
+         {
+            "stars":4,
+            "comment":"Pretty good if you like cheese."
+         },
+         {
+            "stars":5,
+            "comment":"I freakin love cheese!"
+         },
+         {
+            "stars":5,
+            "comment":"J'adore le fromage."
+         }
+      ]
+   },
+]
+});
